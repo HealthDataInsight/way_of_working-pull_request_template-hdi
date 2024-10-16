@@ -15,6 +15,10 @@ module WayOfWorking
           def copy_pr_template_action
             copy_file '.github/pull_request_template.md'
           end
+
+          def copy_way_of_working_documentation
+            copy_file 'docs/way_of_working/pull-request-template-and-guidelines.md'
+          end
         end
       end
     end

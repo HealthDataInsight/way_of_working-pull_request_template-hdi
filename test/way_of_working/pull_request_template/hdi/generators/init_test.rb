@@ -20,10 +20,12 @@ module WayOfWorking
             run_generator
 
             assert_file '.github/pull_request_template.md'
+            assert_file 'docs/way_of_working/pull-request-template-and-guidelines.md'
 
             run_generator [], behavior: :revoke
 
             assert_no_file '.github/pull_request_template.md'
+            assert_no_file 'docs/way_of_working/pull-request-template-and-guidelines.md'
           end
         end
       end
