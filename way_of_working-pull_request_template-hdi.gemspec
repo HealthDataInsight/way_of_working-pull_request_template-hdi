@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'lib/way_of_working/pull_request/hdi/version'
+require_relative 'lib/way_of_working/pull_request_template/hdi/version'
 
 Gem::Specification.new do |spec|
   spec.name = 'way_of_working-pull_request_template-hdi'

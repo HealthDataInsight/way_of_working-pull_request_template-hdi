@@ -15,4 +15,4 @@ A Pull Request doesn't begin and end with the template, the tone of the request 
 
 To add the Pull Request template to your project, use the following at the command line:
 
-    way_of_working init pull_request
+    way_of_working init pull_request_template

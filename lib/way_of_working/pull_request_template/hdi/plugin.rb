@@ -1,4 +1,4 @@
-require 'way_of_working/pull_request/hdi'
+require 'way_of_working/pull_request_template/hdi'
 
 # Add any plug specific code here
 module WayOfWorking

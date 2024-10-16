@@ -24,7 +24,7 @@ gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
 
 To add the Pull Request template to your project, use the following at the command line:
 
-    way_of_working init pull_request
+    way_of_working init pull_request_template
 
 ## Development
 
