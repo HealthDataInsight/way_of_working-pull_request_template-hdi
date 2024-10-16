@@ -4,11 +4,11 @@ require 'way_of_working/cli'
 require_relative 'hdi/paths'
 require 'zeitwerk'
 
-loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::PullRequest)
+loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::PullRequestTemplate)
 loader.setup
 
 module WayOfWorking
-  module PullRequest
+  module PullRequestTemplate
     module Hdi
       class Error < StandardError; end
     end
@@ -17,7 +17,7 @@ module WayOfWorking
   module SubCommands
     # This reopens the "way_of_working init" sub command
     class Init
-      register(PullRequest::Hdi::Generators::Init, 'pull_request', 'pull_request',
+      register(PullRequestTemplate::Hdi::Generators::Init, 'pull_request', 'pull_request',
                <<~LONGDESC)
                  Description:
                      Installs the Pull Request template into the project

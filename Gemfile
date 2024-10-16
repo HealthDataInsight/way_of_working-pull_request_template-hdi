@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 # FIXME: Remove this hard-coded link before merging
 gem 'way_of_working', git: 'https://github.com/HealthDataInsight/way_of_working.git', branch: 'feature/v2-wip'
 
-# Specify your gem's dependencies in way_of_working-pull_request-hdi.gemspec
+# Specify your gem's dependencies in way_of_working-pull_request_template-hdi.gemspec
 gemspec
 
 gem 'activesupport', '~> 7.0', '>= 7.0.7.1'

@@ -3,7 +3,7 @@
 require 'pathname'
 
 module WayOfWorking
-  module PullRequest
+  module PullRequestTemplate
     # Mixin that provides a couple of pathname convenience methods
     module Hdi
       class << self

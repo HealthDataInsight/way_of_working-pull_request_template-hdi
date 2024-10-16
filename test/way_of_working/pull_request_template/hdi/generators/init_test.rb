@@ -1,12 +1,12 @@
 require 'test_helper'
 
 module WayOfWorking
-  module PullRequest
+  module PullRequestTemplate
     module Hdi
       module Generators
         # This class tests the PrTemplate::Init Thor Group (generator)
         class InitTest < Rails::Generators::TestCase
-          tests WayOfWorking::PullRequest::Hdi::Generators::Init
+          tests WayOfWorking::PullRequestTemplate::Hdi::Generators::Init
           destination WayOfWorking.root.join('tmp/generators')
           setup :prepare_destination
 
