@@ -28,7 +28,6 @@ module WayOfWorking
                      This will create:
                          .github/pull_request_template.md
                LONGDESC
-
     end
   end
 end
