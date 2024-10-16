@@ -15,29 +15,20 @@ module WayOfWorking
   end
 
   module SubCommands
-    # # This reopens the "way_of_working audit" sub command
-    # class Audit
-    #   register(PullRequest::Hdi::Generators::Audit, 'pull_request', 'pull_request',
-    # end
-    
-    # # This reopens the "way_of_working document" sub command
-    # class Document
-    #   register(PullRequest::Hdi::Generators::Document, 'pull_request', 'pull_request',
-    # end
-    
-    # # This reopens the "way_of_working exec" sub command
-    # class Exec
-    #   register(PullRequest::Hdi::Generators::Exec, 'pull_request', 'pull_request',
-    # end
+    # This reopens the "way_of_working init" sub command
+    class Init
+      register(PullRequest::Hdi::Generators::Init, 'pull_request', 'pull_request',
+               <<~LONGDESC)
+                 Description:
+                     Installs the Pull Request template into the project
 
-    # # This reopens the "way_of_working init" sub command
-    # class Init
-    #   register(PullRequest::Hdi::Generators::Init, 'pull_request', 'pull_request',
-    # end
+                 Example:
+                     way_of_working init pull_request
 
-    # # This reopens the "way_of_working new" sub command
-    # class New
-    #   register(PullRequest::Hdi::Generators::New, 'pull_request', 'pull_request [NAME]',
-    # end
+                     This will create:
+                         .github/pull_request_template.md
+               LONGDESC
+
+    end
   end
 end
