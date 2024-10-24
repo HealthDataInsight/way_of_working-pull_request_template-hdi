@@ -1,24 +1,24 @@
 # frozen_string_literal: true
 
-require_relative 'lib/way_of_working/pull_request/hdi/version'
+require_relative 'lib/way_of_working/pull_request_template/hdi/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'way_of_working-pull_request-hdi'
-  spec.version = WayOfWorking::PullRequest::Hdi::VERSION
+  spec.name = 'way_of_working-pull_request_template-hdi'
+  spec.version = WayOfWorking::PullRequestTemplate::Hdi::VERSION
   spec.authors = ['Tim Gentry']
   spec.email = ['52189+timgentry@users.noreply.github.com']
 
-  spec.summary = 'TODO: Way of Working plugin for pull request using hdi'
-  spec.homepage = 'https://github.com/HealthDataInsight/way_of_working-pull_request-hdi'
+  spec.summary = 'Way of Working plugin for pull requests using the HDI template'
+  spec.homepage = 'https://github.com/HealthDataInsight/way_of_working-pull_request_template-hdi'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 3.1.0'
 
-  spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
   spec.metadata['rubygems_mfa_required'] = 'true'
 
   spec.metadata['homepage_uri'] = spec.homepage
-  spec.metadata['source_code_uri'] = 'https://github.com/HealthDataInsight/way_of_working-pull_request-hdi'
-  spec.metadata['changelog_uri'] = 'https://github.com/HealthDataInsight/way_of_working-pull_request-hdi/blob/main/CHANGELOG.md'
+  spec.metadata['source_code_uri'] = 'https://github.com/HealthDataInsight/way_of_working-pull_request_template-hdi'
+  spec.metadata['changelog_uri'] = 'https://github.com/HealthDataInsight/way_of_working-pull_request_template-hdi/blob/main/CHANGELOG.md'
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

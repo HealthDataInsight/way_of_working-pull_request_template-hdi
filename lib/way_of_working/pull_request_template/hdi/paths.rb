@@ -3,7 +3,7 @@
 require 'pathname'
 
 module WayOfWorking
-  module PullRequest
+  module PullRequestTemplate
     # Mixin that provides a couple of pathname convenience methods
     module Hdi
       class << self
@@ -12,7 +12,7 @@ module WayOfWorking
         end
 
         def source_root
-          root.join('lib', 'way_of_working', 'pull_request', 'hdi', 'templates')
+          root.join('lib', 'way_of_working', 'pull_request_template', 'hdi', 'templates')
         end
       end
     end
