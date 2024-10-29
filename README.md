@@ -1,8 +1,17 @@
 # WayOfWorking::PullRequestTemplate::Hdi
 
-TODO: Delete this and the text below, and describe your gem
+This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It contains a GitHub Pull Request (PR) template that contains the following section headings:
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/way_of_working-pull_request_template-hdi`. To experiment with that code, run `bin/console` for an interactive prompt.
+- What?
+- Why?
+- How?
+- Testing?
+- Screenshots (optional)
+- Anything Else?
+
+It includes inline guidance and examples on filling in the sections.
+
+A Pull Request (PR) template offers multiple benefits to a development team. It standardizes the process of contributing changes, making it easier for both the author and the reviewers to understand the context of the changes. PR templates can ensure that necessary details, such as a summary of the changes, the reason for the changes (the 'why'), and any associated issue or ticket numbers, are consistently provided. This helps in maintaining a clean, organized, and searchable project history.
 
 ## Installation
 
