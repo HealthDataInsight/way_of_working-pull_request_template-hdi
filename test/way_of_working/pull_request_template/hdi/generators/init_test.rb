@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'way_of_working/pull_request_template/hdi'
 
 module WayOfWorking
   module PullRequestTemplate
