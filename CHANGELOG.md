@@ -10,3 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added a Pull Request template and communications guidelines
+- Added a GitHub audit rule to check for the presence of the PR template
