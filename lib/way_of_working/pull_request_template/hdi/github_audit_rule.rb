@@ -8,10 +8,8 @@ module WayOfWorking
     module Hdi
       # This rule checks for the Pull Request template.
       class GithubAuditRule < ::WayOfWorking::Audit::Github::Rules::Base
-        def valid?
+        def validate
           @errors << 'No Way of Working Pull Request template found' unless pull_request_template?
-
-          @errors.empty? ? :passed : :failed
         end
 
         private
