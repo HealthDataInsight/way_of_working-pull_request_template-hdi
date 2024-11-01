@@ -8,7 +8,7 @@ module WayOfWorking
         # This class tests the PrTemplate::Init Thor Group (generator)
         class InitTest < Rails::Generators::TestCase
           tests WayOfWorking::PullRequestTemplate::Hdi::Generators::Init
-          destination WayOfWorking.root.join('tmp/generators')
+          destination WayOfWorking::PullRequestTemplate::Hdi.root.join('tmp/generators')
           setup :prepare_destination
 
           test 'generator runs without errors' do
