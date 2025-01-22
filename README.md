@@ -1,5 +1,10 @@
 # WayOfWorking::PullRequestTemplate::Hdi
 
+<!-- Way of Working: Main Badge Holder Start -->
+![Way of Working Badge](https://img.shields.io/badge/Way_of_Working-v2.0.1-%238169e3?labelColor=black)
+<!-- Way of Working: Additional Badge Holder Start -->
+<!-- Way of Working: Badge Holder End -->
+
 This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It contains a GitHub Pull Request (PR) template that contains the following section headings:
 
 - What?
