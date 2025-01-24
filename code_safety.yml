@@ -1,0 +1,114 @@
+---
+file safety:
+  ".alexrc":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".github/linters/.markdown-link-check.json":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".github/linters/rubocop_defaults.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".github/workflows/inclusive-language.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".github/workflows/main.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".github/workflows/mega-linter.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".gitignore":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".mega-linter.yml":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".rubocop":
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  CHANGELOG.md:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: f1280cbfaa65d6505ea57b4e9f4867c129d6d5bd
+  Gemfile:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+  Gemfile.lock:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+  LICENSE.txt:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  README.md:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+  Rakefile:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  bin/console:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+  bin/setup:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  lib/way_of_working/pull_request_template/hdi.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  lib/way_of_working/pull_request_template/hdi/generators/init.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  lib/way_of_working/pull_request_template/hdi/paths.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  lib/way_of_working/pull_request_template/hdi/plugin.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+  lib/way_of_working/pull_request_template/hdi/templates/.github/pull_request_template.md:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+  lib/way_of_working/pull_request_template/hdi/templates/docs/way_of_working/pull-request-template-and-guidelines.md:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+  lib/way_of_working/pull_request_template/hdi/version.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+  test/test_helper.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+  test/way_of_working/pull_request_template/hdi/generators/init_test.rb:
+    comments:
+    reviewed_by:
+    safe_revision:
+  test/way_of_working/pull_request_template/hdi_test.rb:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+  way_of_working-pull_request_template-hdi.gemspec:
+    comments:
+    reviewed_by:
+    safe_revision:
