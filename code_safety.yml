@@ -12,22 +12,26 @@ file safety:
     comments:
     reviewed_by: timgentry
     safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  ".github/pull_request_template.md":
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   ".github/workflows/inclusive-language.yml":
     comments:
-    reviewed_by: timgentry
-    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   ".github/workflows/main.yml":
     comments:
     reviewed_by: timgentry
     safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
   ".github/workflows/mega-linter.yml":
     comments:
-    reviewed_by: timgentry
-    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   ".gitignore":
     comments:
-    reviewed_by: timgentry
-    safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   ".mega-linter.yml":
     comments:
     reviewed_by: timgentry
@@ -38,77 +42,97 @@ file safety:
     safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
   CHANGELOG.md:
     comments:
-    reviewed_by: timgentry
-    safe_revision: f1280cbfaa65d6505ea57b4e9f4867c129d6d5bd
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   Gemfile:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   Gemfile.lock:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   LICENSE.txt:
     comments:
     reviewed_by: timgentry
     safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
   README.md:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   Rakefile:
     comments:
     reviewed_by: timgentry
     safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
   bin/console:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   bin/setup:
     comments:
     reviewed_by: timgentry
     safe_revision: b6dfa95b5ff30b730da276f4f5ff4c6f9b62efe9
+  docs/way_of_working/pull-request-template-and-guidelines.md:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   lib/way_of_working/pull_request_template/hdi.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   lib/way_of_working/pull_request_template/hdi/generators/init.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
+  lib/way_of_working/pull_request_template/hdi/github_audit_rule.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   lib/way_of_working/pull_request_template/hdi/paths.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   lib/way_of_working/pull_request_template/hdi/plugin.rb:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   lib/way_of_working/pull_request_template/hdi/templates/.github/pull_request_template.md:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   lib/way_of_working/pull_request_template/hdi/templates/docs/way_of_working/pull-request-template-and-guidelines.md:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   lib/way_of_working/pull_request_template/hdi/version.rb:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   test/test_helper.rb:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 15bbf094598119c03dfca6aca952a47f5bdfb5a2
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
+  test/way_of_working/audit_github_stub_classes.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   test/way_of_working/pull_request_template/hdi/generators/init_test.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
+  test/way_of_working/pull_request_template/hdi/github_audit_rule_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
+  test/way_of_working/pull_request_template/hdi/zeitwerk_loader_test.rb:
+    comments:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   test/way_of_working/pull_request_template/hdi_test.rb:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 18440e9461ae7ffa82c739c7ed4fbcc28e5af686
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
   way_of_working-pull_request_template-hdi.gemspec:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 8a1c4e75959cd233ba1b9f134f792a112c642452
