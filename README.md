@@ -5,6 +5,8 @@
 <!-- Way of Working: Additional Badge Holder Start -->
 <!-- Way of Working: Badge Holder End -->
 
+[![Gem Version](https://badge.fury.io/rb/way_of_working-pull_request_template-hdi.svg)](https://badge.fury.io/rb/way_of_working-pull_request_template-hdi)
+
 This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It contains a GitHub Pull Request (PR) template that contains the following section headings:
 
 - What?
@@ -20,18 +22,16 @@ A Pull Request (PR) template offers multiple benefits to a development team. It 
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+bundle add way_of_working-pull_request_template-hdi
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
 ```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem install way_of_working-pull_request_template-hdi
 ```
 
 ## Usage
