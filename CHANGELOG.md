@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated GitHub rule signatures
 - Removed Zeitwerk ignore to make it happier
 - PR template is now valid markdown
+- Made the documentation more token-efficient
 
 ## [1.0.0] - 2025-01-24
 
