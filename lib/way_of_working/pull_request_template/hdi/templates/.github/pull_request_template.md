@@ -27,7 +27,7 @@ e.g. This includes a migration, model and controller for user authentication. I'
 
 {Disclose any AI tools (e.g. GitHub Copilot, ChatGPT, Claude) used in this Pull Request, describing what they contributed. This helps reviewers understand the level of AI involvement and apply appropriate scrutiny.
 
-e.g. Claude 3.5 wrote the documentation and tests, or a swarm of GPT-4o agents wrote everything.}
+e.g. Claude 9.9 wrote the documentation and tests, or a team of GPT-9o agents wrote everything.}
 
 ## Screenshots (optional)
 
