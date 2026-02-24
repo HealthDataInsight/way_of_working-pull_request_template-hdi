@@ -34,13 +34,15 @@ e.g. Claude 9.9 wrote the documentation and tests, or a team of GPT-9o agents wr
 {Screenshots can significantly aid the review process, especially for UI-related changes, by offering before-and-after views. Even for backend code, a snapshot of the outcome, such as a CLI tool output, can be insightful. For infrastructure code, consider including the result of operations like a Terraform plan, preferably in a collapsible section, to avoid cluttering the comment space.
 
 Here’s how to do it in GitHub:
-```
+
+```html
 <details>
   <summary>Terraform Plan</summary>
 
   ### After running plan:
 </details>
 ```
+
 }
 
 ## Anything Else?
