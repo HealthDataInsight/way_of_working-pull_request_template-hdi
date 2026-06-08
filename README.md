@@ -1,5 +1,16 @@
 # WayOfWorking::PullRequestTemplate::Hdi
 
+> [!IMPORTANT]
+> **This repository has been archived.**
+>
+> The Pull Request Template (HDI) feature has been merged into the main [`way_of_working`](https://github.com/HealthDataInsight/way_of_working) gem, where it is now a built-in, opt-in feature. Enable it by requiring it:
+>
+> ```ruby
+> require 'way_of_working/pull_request_template/hdi'
+> ```
+>
+> Then use `way_of_working init pull_request_template` as before. This repository is no longer maintained.
+
 <!-- Way of Working: Main Badge Holder Start -->
 ![Way of Working Badge](https://img.shields.io/badge/Way_of_Working-v2.0.1-%238169e3?labelColor=black)
 <!-- Way of Working: Additional Badge Holder Start -->
